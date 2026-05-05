@@ -1,0 +1,82 @@
+<!--Name: William Bailey
+    Filename: contact.html 
+    Date: 04/27/2026
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bologna Suntan - Contact</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="images/BolognaSuntan.png" type="image/png">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+</head>
+<body>
+    <header>
+        <img src="images/BolognaSuntan.png" class="top-right-logo" alt="Bologna Suntan Logo">
+        <h1>Contact Us</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="discography.html">Music</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+    <h2>Get in Touch</h2>
+    <form id="contactForm">
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+        </div>
+
+        <label>Subject:</label>
+        <div class="form-inline">
+            <input type="radio" id="booking" name="subject" value="booking">
+            <label for="booking">Booking</label>
+        </div>
+        <div class="form-inline">
+            <input type="radio" id="general" name="subject" value="general">
+            <label for="general">General</label>
+        </div>
+
+        <div class="form-inline">
+            <input type="checkbox" id="newsletter" name="newsletter">
+            <label for="newsletter">Subscribe to newsletter</label>
+        </div>
+
+        <button type="submit">Send</button>
+    </form>
+</main>
+    <footer>
+        <div class="social-footer">
+        <h3>FOLLOW THE BEEF</h3>
+        <div class="social-links">
+            <a href="https://instagram.com" target="_blank">INSTAGRAM</a>
+            <a href="https://spotify.com" target="_blank">SPOTIFY</a>
+            <a href="https://facebook.com" target="_blank">FACEBOOK</a>
+            <a href="https://youtube.com" target="_blank">YOUTUBE</a>
+        </div>
+    </div>
+    
+        <p>&copy; 2026 Bologna Suntan</p>
+    </footer>
+</body>
+</html>
